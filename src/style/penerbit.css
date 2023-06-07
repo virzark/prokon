@@ -1,0 +1,11 @@
+.myBG {
+    background-color: #1F2122;
+    background-size: cover;
+}
+
+.title {
+    font-size: 35px;
+    font-weight: 800;
+    color: linear-gradient(to right, #8B54E5, #FF5995);
+}
+    
