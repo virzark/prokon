@@ -1,17 +1,18 @@
-import {Navbar, Container, Nav} from "react-bootstrap"
+import {Navbar, Container, Nav} from "react-bootstrap";
+import "../style/penerbit.css";
 
 const NavigationBar = () => {
     return (
-        <Navbar>
-            <Container>
-                <div className="title">Ethery
-                <div className="text-white title2">for publisher</div>
-                </div>
-                
-            </Container>
-            
-        </Navbar>
-        
+        <div className="navbar">
+            <div className="left-navbar">
+                <h1>Ethery</h1>
+                <p>for publisher</p>
+            </div>
+            <div className="right-navbar">
+                <h2>Address:</h2>
+                <p>0x7E5F4552091A69125d5DfCb7b8C2659029395Bdf</p>
+            </div>
+        </div>
     )
 }
 
