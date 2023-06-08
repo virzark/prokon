@@ -1,16 +1,32 @@
 import React, { useState, useEffect } from 'react';
 //import axios from 'axios';
 //import Web3 from 'web3';
-import NavigationBar from "./components/NavigationBar"
-import "./style/penerbit.css"
+import NavigationBar from "./components/NavigationBar";
+import "./style/penerbit.css";
+import { Container } from 'react-bootstrap';
 
 function App() {
   return (
     <div className="myBG">
       <div>
-      < NavigationBar />
+        < NavigationBar />
       </div>
-      
+
+      <div className='full-container'>
+        <div className='sidebar'>
+          {/* content */}
+          <h3>This is sidebar menu</h3>
+          <h3>This is sidebar menu</h3>
+          <h3>This is sidebar menu</h3>
+        </div>
+
+        <div className='content'>
+          {/* content */}
+          <p>This is content</p>
+          <p>This is content</p>
+          <p>This is content</p>
+        </div>
+      </div>
       
       <h2>Register Company</h2>
       <div>
