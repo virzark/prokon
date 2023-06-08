@@ -1,11 +1,72 @@
 .myBG {
-    background-color: #1F2122;
+    min-height: 100vh;
+    background-color: #ffffff;
+    /* background-color: #1F2122; */
     background-size: cover;
 }
 
-.title {
-    font-size: 35px;
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 30px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+  }
+
+.left-navbar h1 {
+    font-size: 50px;
     font-weight: 800;
-    color: linear-gradient(to right, #8B54E5, #FF5995);
+    margin-bottom: 0;
+    color : #bb52b7;
+    /* color: linear-gradient(to right, #8B54E5, #FF5995); */
 }
-    
+
+.left-navbar p {
+    font-size: 20px;
+    margin-top: 0;
+    color : #000000;
+    /* color : #ffffff; */
+}
+
+.right-navbar h2 {
+    font-size: 20px;
+    margin-bottom: 0;
+    text-align: right;
+    color : #929292;
+}
+
+.right-navbar p {
+    font-size: 20px;
+    margin-top: 0;
+    color : #000000;
+    /* color : #ffffff; */
+}
+
+.full-container {
+    display: flex;
+    margin: 50px
+}
+
+.sidebar {
+    flex: 1 0 20%;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    padding: 20px;    
+}
+
+.sidebar h3 {
+    font-size: 20px;
+}
+
+.content {
+    flex: 1 0 80%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 20px;
+}
