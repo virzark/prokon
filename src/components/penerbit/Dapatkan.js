@@ -4,7 +4,7 @@ import {Container} from "react-bootstrap";
 const Dapatkan = () => {
     return (
         <Container>
-            <form role="form" id="Dapatkan">
+            <form>
                 <h2>Dapatkan Produk</h2>
 
                 <div class="form-group">
