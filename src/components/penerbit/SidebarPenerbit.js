@@ -12,23 +12,23 @@ function SidebarPenerbit({setSelectedMenuItem}) {
         <div>
             <ul>
                 <li>
-                    <a href="#" onClick={() => handleMenuItemClick('menu1')}>Register Company
-                    </a>
+                    <button onClick={() => handleMenuItemClick('menu1')}>Register Company
+                    </button>
                 </li>
 
                 <li>
-                    <a href="#" onClick={() => handleMenuItemClick('menu2')}>Tambah
-                    </a>
+                    <button onClick={() => handleMenuItemClick('menu2')}>Tambah
+                    </button>
                 </li>
 
                 <li>
-                    <a href="#" onClick={() => handleMenuItemClick('menu3')}>Transfer
-                    </a>
+                    <button onClick={() => handleMenuItemClick('menu3')}>Transfer
+                    </button>
                 </li>
 
                 <li>
-                    <a href="#" onClick={() => handleMenuItemClick('menu4')}>Dapatkan Produk
-                    </a>
+                    <button onClick={() => handleMenuItemClick('menu4')}>Dapatkan Produk
+                    </button>
                 </li>
             </ul>
         </div>  
