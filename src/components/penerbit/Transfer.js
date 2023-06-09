@@ -4,7 +4,7 @@ import {Container} from "react-bootstrap";
 const Transfer = () => {
     return (
         <Container>
-            <form role="form" id="Transfer">
+            <form>
                 <h2>Transfer Produk</h2>
 
                 <div class="form-group">
