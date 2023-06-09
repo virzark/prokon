@@ -1,6 +1,5 @@
 /* import(s) */
 import React, { useState, useEffect } from "react";
-import Home from '../Home'
 import NavigationBar from "./NavigationBarTokoBuku";
 import Sidebar from "./SidebarTokoBuku";
 import Content from "./ContentTokoBuku";
@@ -29,7 +28,9 @@ function Tokobuku({ navigateToHome, navigateToPage }) {
       </div>
 
       {/* home button */}
-      <button onClick={navigateToHome}>Back to Home</button>
+      <div className="homeButton">
+        <button className="customButton" onClick={navigateToHome}>Back to Home</button>
+      </div>
 
       {/* body */}
       <div className="full-container">

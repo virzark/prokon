@@ -1,6 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
 .home-container {
+    height:100vh;
     background-image: url('../assets/images/HomeBackground.jpeg');
+    background-size: cover;
+}
+
+.intro {
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-container h2 {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 5px;
+    font-size: 40px;
+}
+
+.home-container h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 100px;
+    background: -webkit-linear-gradient(left, #8B54E5 , #FF5995);
+    background: -o-linear-gradient(right, #8B54E5, #FF5995);
+    background: -moz-linear-gradient(right, #8B54E5, #FF5995);
+    background: linear-gradient(to right, #8B54E5, #FF5995); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 0;
+    letter-spacing: 4px;
+}
+
+.button-container
+{   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.customButton{
+    font-family: 'Poppins', sans-serif;
+    width: 180px;
+	background: #FF5995;
+	color: #F1F1F9;
+	border: 1px;
+	border-color: #FF5995;
+    border-radius: 10px;
+	padding: 10px 10px;
+	margin-top: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+	cursor: pointer;
+	transition:all .38s ease-in-out;
 }
 

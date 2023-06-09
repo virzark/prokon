@@ -10,11 +10,11 @@
 
 .container {
     background-color: #27292A;
-      border: 1px;
+    border: 1px;
     border-color: #27292A;
-      border-radius: 10px;
-      margin-top: 20px;
-      margin-bottom: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 div form {
@@ -49,7 +49,8 @@ div form {
 }
 
 .tombol {
-	font-family: "Fugaz One";
+	font-family: 'Poppins', sans-serif;
+    font-size: 16px;
     width: 180px;
 	background: #FF5995;
 	color: #F1F1F9;
