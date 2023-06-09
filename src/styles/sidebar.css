@@ -8,12 +8,15 @@
     transition: all .5s ease;    
   }
   
-  .sidebar ul li a{
+  .sidebar ul li button{
     font-family: 'Poppins', sans-serif;
     display: block;
     font-size: 17px;
     font-weight: 510;
+    background-color: #27292a;
     color: #ffffff;
+    border: none;
+    text-align: left;
     box-sizing: border-box;
     transition: .4s;
     margin-top: 20px;
@@ -21,7 +24,7 @@
     text-decoration: none;
   }
   
-  .sidebar ul li:hover a{
+  .sidebar ul li:hover button{
     padding-left: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
