@@ -4,7 +4,7 @@ import {Container} from "react-bootstrap";
 const Register = () => {
     return (
         <Container>
-            <form role="form" id="Register">
+            <form>
                 <h2>Register Company</h2>
 
                 <div class="form-group">
