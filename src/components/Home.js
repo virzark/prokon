@@ -8,8 +8,8 @@ function Home() {
         <div className = "home-container">
             <h1>Welcome to</h1>
             <h2>Ethery</h2>
-            <div className = "buttons-container">
-                <p>Penerbit</p>
+            <div className = "button-container">
+                <p>test</p>
             </div>
         </div>
     );
